@@ -9,33 +9,9 @@
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 
-	<!-- 
-	//////////////////////////////////////////////////////
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i" rel="stylesheet">
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
-	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -58,9 +34,9 @@
 
 	</head>
 	<body>
-		
+
 	<div class="fh5co-loader"></div>
-	
+
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
@@ -77,7 +53,7 @@
 						</ul>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</nav>
@@ -139,7 +115,7 @@
 				   			</div>
 				   		</div>
 			   		</div>
-			   	</li>	   	
+			   	</li>
 			  	</ul>
 		  	</div>
 		</aside>
@@ -178,7 +154,7 @@
 								</div>
 							</a>
 						</div>
-						
+
 					</div>
 				</div>
 
@@ -232,37 +208,25 @@
 		<footer id="fh5co-footer" role="contentinfo">
 			<div class="row">
 				<div class="col-md-3 fh5co-widget">
-					<h4>About Carbon</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<h4>A propos</h4>
+					<p>Gites de France....</p>
 				</div>
 				<div class="col-md-3 col-md-push-1">
-					<h4>Latest Projects</h4>
+					<h4>Derniers gîtes ajoutés</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">JBC Stadium</a></li>
-						<li><a href="#">T-Mobile Arena</a></li>
-						<li><a href="#">Target Field</a></li>
-						<li><a href="#">London Stadium</a></li>
+						<li><a href="gite.php">JBC Stadium</a></li>
+						<li><a href="gite.php">T-Mobile Arena</a></li>
+						<li><a href="gite.php">Target Field</a></li>
+						<li><a href="gite.php">London Stadium</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-3 col-md-push-1">
-					<h4>Links</h4>
+					<h4>Plan du site</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">About us</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-3">
-					<h4>Contact Information</h4>
-					<ul class="fh5co-footer-links">
-						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-						<li><a href="http://gettemplates.co">gettemplates.co</a></li>
+						<li><a href="index.php">Accueil</a></li>
+						<li><a href="gites.php">Gîtes</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
 
@@ -271,8 +235,8 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; 2016 All Rights Reserved.</small>
+						<small class="block">Basé sur le template de <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Gites de France</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
@@ -291,7 +255,7 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -309,4 +273,3 @@
 
 	</body>
 </html>
-
