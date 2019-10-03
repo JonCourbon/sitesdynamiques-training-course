@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<body>
+
+<form id="regForm" action="actionMultipleSingle.php" method="GET">
+  <h1>Enregistrement:</h1>
+  <div class="tab">Nom:
+    <p><input placeholder="Nom..." name="nom" required="required"></p>
+    <p><input placeholder="Prénom..." name="prenom" required="required"></p>
+  </div>
+  <div class="tab">Informations de contact:
+    <p><input placeholder="E-mail..." name="email" required="required"></p>
+    <p><input placeholder="Téléphone..." name="tel" required="required"></p>
+  </div>
+  <div class="tab">Date d'anniversaire:
+    <p><input placeholder="jj" name="jj"></p>
+    <p><input placeholder="mm" name="mm"></p>
+    <p><input placeholder="aaaa" name="aaaa"></p>
+  </div>
+	<div style="overflow:auto;">
+	  <div style="float:right;">
+		<button type="button" id="prevBtn" onclick="nextPrev(-1)">Précédent</button>
+		<button type="button" id="nextBtn" onclick="nextPrev(1)">Suivant</button>
+	  </div>
+	</div>
+  <!-- Circles which indicates the steps of the form: -->
+<div style="text-align:center;margin-top:40px;">
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+</div>
+</form>
+
+Inspiré du code: <a href="https://www.w3schools.com/howto/howto_js_form_steps.asp" target="_new">W3School How TO - Form with Multiple Steps</a>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
