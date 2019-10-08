@@ -287,11 +287,13 @@
 		 jQuery.expr[':'].contains = function(a, i, m) {
 			return jQuery(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
 		};
-		var nom=$('.search').val();
+		var nom=$('.search').val().toLowerCase();
 
 
 		$('#listegites > div').hide()
-			.filter('#listegites > div[data-nom*="'+ nom +'"]')
+		  .filter(function() {
+		      $(this).toggle($(this).text().toLowerCase().indexOf(nom) > -1)
+		    })
 			.show(); // show the filtered elements
 	});
 	
