@@ -6,4 +6,6 @@ $flatbase = new Flatbase\Flatbase($storage);
 
 $flatbase->delete()->in('gites')->execute();
 
+echo "Base de données effacée";
+
 ?>

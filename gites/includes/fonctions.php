@@ -2,6 +2,7 @@
 
 dernierIdGite();
 
+/* fonction qui renvoie la valeur maximale de l'identifiant d'un gite (pour créer un nouvel identifiant unique)*/
 function dernierIdGite()
 {
   include_once('../vendor/autoload.php');

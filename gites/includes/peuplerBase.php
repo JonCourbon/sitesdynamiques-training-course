@@ -14,4 +14,6 @@ $flatbase->insert()->in('gites')
       ])
     ->execute();
 
+    echo "Base de données peuplée";
+
 ?>
