@@ -1,5 +1,6 @@
 {
     "require": {
-        "flatbase/flatbase": "^0.4.1"
+        "flatbase/flatbase": "^0.4.1",
+        "mustache/mustache": "^2.12"
     }
 }
